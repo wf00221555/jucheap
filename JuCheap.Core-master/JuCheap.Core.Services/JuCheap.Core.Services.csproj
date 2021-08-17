@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JuCheap.Core.Data\JuCheap.Core.Data.csproj" />
+    <ProjectReference Include="..\JuCheap.Core.Infrastructure\JuCheap.Core.Infrastructure.csproj" />
+    <ProjectReference Include="..\JuCheap.Core.Interfaces\JuCheap.Core.Interfaces.csproj" />
+    <ProjectReference Include="..\JuCheap.Core.Models\JuCheap.Core.Models.csproj" />
+  </ItemGroup>
+
+</Project>
